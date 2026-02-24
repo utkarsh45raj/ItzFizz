@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ITZ FIZZ — Premium Experience</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <section class="hero" id="hero">
+
+    <!-- Subtle background grid -->
+    <div class="hero__bg-grid" aria-hidden="true"></div>
+
+    <!-- Corner decorations -->
+    <div class="hero__corner hero__corner--tl" aria-hidden="true"></div>
+    <div class="hero__corner hero__corner--tr" aria-hidden="true"></div>
+    <div class="hero__corner hero__corner--bl" aria-hidden="true"></div>
+    <div class="hero__corner hero__corner--br" aria-hidden="true"></div>
+
+    <!-- Headline + Tagline -->
+    <div class="hero__headline-wrap">
+      <h1 class="hero__headline" id="headline">
+        <span class="word">W E L C O M E</span>
+        <span class="word word--gap">I T Z</span>
+        <span class="word word--gap">F I Z Z</span>
+      </h1>
+      <p class="hero__tagline">10x your growth with India's leading digital marketing agency</p>
+    </div>
+
+    <!-- Main Visual Object (scroll-animated) -->
+    <div class="hero__visual-wrap" id="visualWrap">
+      <div class="hero__visual" id="mainVisual">
+        <div class="ring ring--1"></div>
+        <div class="ring ring--2"></div>
+        <div class="ring ring--3"></div>
+        <div class="emblem">
+          <span class="emblem__letter">Itz Fizz</span>
+        </div>
+        <div class="orbit-dot"></div>
+      </div>
+    </div>
+
+    <!-- Impact Metrics -->
+    <div class="hero__stats" id="stats">
+      <div class="stat">
+        <span class="stat__value">98<sup>%</sup></span>
+        <span class="stat__label">Customer Satisfaction</span>
+      </div>
+      <div class="stat">
+        <span class="stat__value">1.5M+</span>
+        <span class="stat__label">Projects Delivered</span>
+      </div>
+      <div class="stat">
+        <span class="stat__value">5 Domains</span>
+        <span class="stat__label">Signature Offerings</span>
+      </div>
+      <div class="stat">
+        <span class="stat__value">40<sup>+</sup></span>
+        <span class="stat__label">Clients</span>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- After section (hidden — gives scroll room for pinned hero) -->
+  <section class="after" id="after">
+    <h2 class="after__title">The journey begins below.</h2>
+    <p class="after__body">
+      This section demonstrates that the scroll-trigger is properly pinned and released.
+      The hero visual has already completed its transform by the time you reach here.
+    </p>
+  </section>
+
+  <!-- GSAP via CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
