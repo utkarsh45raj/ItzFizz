@@ -3,21 +3,6 @@
 This project recreates a **premium, scroll-driven hero section animation**, inspired by the provided reference demo.  
 The goal is to demonstrate a strong understanding of **frontend animations, scroll-based interactions, and smooth UI behavior** using modern web technologies.
 
----
-
-## 🎯 Assignment Objective
-
-The purpose of this assignment is to evaluate:
-
-- Scroll-based animation logic
-- Motion smoothness and easing
-- Performance-aware UI animations
-- Ability to translate a reference interaction into working code
-
-**Reference Demo:**  
-https://paraschaturvedi.github.io/car-scroll-animation
-
----
 
 ## ✨ Features Implemented
 
